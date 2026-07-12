@@ -4576,6 +4576,16 @@
 		)
 		(uuid "78dc68e1-8c22-4c96-9ea0-0ed8791cda2e")
 	)
+	(text "0.91\"I2C SSD1306 OLED Display "
+		(exclude_from_sim no)
+		(at 153.67 161.036 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "9d043fff-7cdf-49b3-87cb-f30305b29a6f")
+	)
 	(text "Flash memory 2 MB (16 Mbit)\n"
 		(exclude_from_sim no)
 		(at 255.016 75.946 0)
