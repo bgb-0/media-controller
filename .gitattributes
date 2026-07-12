@@ -1,0 +1,30 @@
+# Normalize all text to LF in the repository
+* text=auto eol=lf
+
+# KiCad sources are plain text S-expressions — force LF
+*.kicad_sch   text eol=lf
+*.kicad_pcb   text eol=lf
+*.kicad_pro   text eol=lf
+*.kicad_sym   text eol=lf
+*.kicad_mod   text eol=lf
+*.kicad_dru   text eol=lf
+*.kicad_wks   text eol=lf
+
+# Firmware sources
+*.c    text eol=lf
+*.h    text eol=lf
+*.mk   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+
+# Binary — never diff, never convert
+*.step binary
+*.stp  binary
+*.wrl  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
+*.zip  binary
+*.gbr  binary
+*.drl  binary
