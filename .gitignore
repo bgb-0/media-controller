@@ -51,6 +51,8 @@ fp-info-cache
 !hardware/bom/*.zip
 
 # OS
+CLAUDE.md
+INIT.md
 .DS_Store
 Thumbs.db
 desktop.ini
