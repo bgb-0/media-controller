@@ -4614,6 +4614,16 @@
 		)
 		(uuid "0fbbcdab-1a49-4f74-bc8e-3ed130703d9e")
 	)
+	(text "50V C0G ±5% 0402"
+		(exclude_from_sim no)
+		(at 29.718 97.028 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "19211b38-37de-4a0f-9330-3dc8d07cc1d7")
+	)
 	(text "Decoupling caps RP2040"
 		(exclude_from_sim no)
 		(at 34.29 46.99 0)
@@ -5050,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 181.61) (xy 85.09 184.15)
+			(xy -208.28 195.58) (xy -208.28 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5420,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 176.53) (xy 62.23 176.53)
+			(xy -234.95 190.5) (xy -231.14 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5460,7 +5470,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 181.61) (xy 67.31 184.15)
+			(xy -226.06 195.58) (xy -226.06 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5820,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 176.53) (xy 43.18 176.53)
+			(xy -254 190.5) (xy -250.19 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5820,7 +5830,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 181.61) (xy 48.26 184.15)
+			(xy -245.11 195.58) (xy -245.11 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6070,7 +6080,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 176.53) (xy 80.01 176.53)
+			(xy -217.17 190.5) (xy -213.36 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7069,7 +7079,7 @@
 		(uuid "077266c9-8a25-4f78-9f93-55705bee641a")
 	)
 	(label "SWITCH3"
-		(at 76.2 176.53 270)
+		(at -217.17 190.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7219,7 +7229,7 @@
 		(uuid "960a8cc5-6b07-460c-b029-bee8c415ce3b")
 	)
 	(label "SWITCH2"
-		(at 58.42 176.53 270)
+		(at -234.95 190.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7279,7 +7289,7 @@
 		(uuid "bab4df0f-bd0f-4fdf-958d-b2881c988888")
 	)
 	(label "SWITCH1"
-		(at 39.37 176.53 270)
+		(at -254 190.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7546,7 +7556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 43.18 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +7715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 25.0952 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7784,7 +7794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.56 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7912,7 +7922,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 184.15 0)
+		(at -245.11 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7923,7 +7933,7 @@
 		(fields_autoplaced yes)
 		(uuid "17a68f32-32db-4988-9f56-e0fb6cf7f490")
 		(property "Reference" "#PWR023"
-			(at 48.26 190.5 0)
+			(at -245.11 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7934,7 +7944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 189.23 0)
+			(at -245.11 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7944,7 +7954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 184.15 0)
+			(at -245.11 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7955,7 +7965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 184.15 0)
+			(at -245.11 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,7 +7976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 184.15 0)
+			(at -245.11 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8019,7 +8029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 81.28 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -8098,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 205.74 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8255,7 +8265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 29.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8279,6 +8289,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 29.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "15pF 50V C0G ±5% 0402"
+			(at 29.21 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8460,7 +8481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 184.15 0)
+		(at -226.06 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8471,7 +8492,7 @@
 		(fields_autoplaced yes)
 		(uuid "226b742d-707e-42d2-bdbf-987cd64503a5")
 		(property "Reference" "#PWR024"
-			(at 67.31 190.5 0)
+			(at -226.06 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8482,7 +8503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 189.23 0)
+			(at -226.06 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8492,7 +8513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 184.15 0)
+			(at -226.06 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8503,7 +8524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 184.15 0)
+			(at -226.06 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8514,7 +8535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 184.15 0)
+			(at -226.06 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8747,7 +8768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 44.1452 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8990,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 207.01 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9149,7 +9170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 36.5252 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9308,7 +9329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 89.8652 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9389,7 +9410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 158.4452 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9470,7 +9491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 67.0052 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9712,7 +9733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 136.8552 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9949,7 +9970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 162.2552 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10216,7 +10237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 74.6252 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10373,7 +10394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10610,7 +10631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 46.6852 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10660,7 +10681,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 82.55 179.07 0)
+		(at -210.82 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10671,7 +10692,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c1a2b40-18e3-4525-8139-bb1da1a3f12a")
 		(property "Reference" "SW4"
-			(at 82.55 171.45 0)
+			(at -210.82 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10681,7 +10702,7 @@
 			)
 		)
 		(property "Value" "MX Style Switch"
-			(at 82.55 173.99 0)
+			(at -210.82 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10691,7 +10712,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 82.55 179.07 0)
+			(at -210.82 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10702,7 +10723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 179.07 0)
+			(at -210.82 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10713,7 +10734,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 82.55 179.07 0)
+			(at -210.82 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11353,7 +11374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 168.6052 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11434,7 +11455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 82.2452 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11513,7 +11534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 43.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11592,7 +11613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 29.21 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11616,6 +11637,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 29.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "15pF 50V C0G ±5% 0402"
+			(at 29.21 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11834,7 +11866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 248.92 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -11962,7 +11994,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 45.72 179.07 0)
+		(at -247.65 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11973,7 +12005,7 @@
 		(fields_autoplaced yes)
 		(uuid "b55e54ec-f756-48af-9af0-d8af7837fdff")
 		(property "Reference" "SW2"
-			(at 45.72 171.45 0)
+			(at -247.65 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11983,7 +12015,7 @@
 			)
 		)
 		(property "Value" "MX Style Switch"
-			(at 45.72 173.99 0)
+			(at -247.65 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11993,7 +12025,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 45.72 179.07 0)
+			(at -247.65 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 179.07 0)
+			(at -247.65 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12015,7 +12047,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 45.72 179.07 0)
+			(at -247.65 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12318,7 +12350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 59.3852 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12914,7 +12946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 51.7652 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12995,7 +13027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 28.9052 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13074,7 +13106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 43.18 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13233,7 +13265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 21.2852 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13360,7 +13392,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 64.77 179.07 0)
+		(at -228.6 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13371,7 +13403,7 @@
 		(fields_autoplaced yes)
 		(uuid "dff3f1ef-f089-4487-b388-de583b5ecbbe")
 		(property "Reference" "SW3"
-			(at 64.77 171.45 0)
+			(at -228.6 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13381,7 +13413,7 @@
 			)
 		)
 		(property "Value" "MX Style Switch"
-			(at 64.77 173.99 0)
+			(at -228.6 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13391,7 +13423,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 64.77 179.07 0)
+			(at -228.6 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13402,7 +13434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 179.07 0)
+			(at -228.6 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13413,7 +13445,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 64.77 179.07 0)
+			(at -228.6 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13518,7 +13550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 184.15 0)
+		(at -208.28 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13529,7 +13561,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2fdc105-aa8f-4bdb-8f80-12c1e1b6ddae")
 		(property "Reference" "#PWR025"
-			(at 85.09 190.5 0)
+			(at -208.28 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13540,7 +13572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 189.23 0)
+			(at -208.28 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13550,7 +13582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 184.15 0)
+			(at -208.28 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13561,7 +13593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 184.15 0)
+			(at -208.28 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13572,7 +13604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 184.15 0)
+			(at -208.28 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13781,7 +13813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.56 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13862,7 +13894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 36.5252 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13941,7 +13973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 35.56 54.61 0)
 			(hide yes)
 			(show_name no)
